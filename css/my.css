@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(25,25,25);
+    color: rgb(230,230,230);
+}
+
+li {
+    display: inline;
+    padding-right: 40px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: -webkit-linear-gradient(left, rgb(184, 101, 6), rgb(42, 115, 224));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ul {
+    border-style: groove;
+    background: -webkit-linear-gradient(left, rgb(184, 101, 6), rgb(42, 115, 224));
+}
+
+.banner {
+    width: 310px;
+}
