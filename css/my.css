@@ -3,24 +3,39 @@ body {
     background-color: rgb(25,25,25);
     color: rgb(230,230,230);
 }
-
-li {
-    display: inline;
-    padding-right: 40px;
+.banner {
+    display: flex;
+    padding: 0px, 0px, 0px, 0px;
+    height: 50px;
 }
-
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: -webkit-linear-gradient(left, rgb(184, 101, 6), rgb(42, 115, 224));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin: 0px;
+    text-align: left;
+    margin: 0px;
 }
-
 ul {
     border-style: groove;
     background: -webkit-linear-gradient(left, rgb(184, 101, 6), rgb(42, 115, 224));
+    margin: 3px;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
 }
 
-.banner {
-    width: 310px;
+li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.bannerThumbs {
+    width: 25px;
+    padding: 3px;
+    vertical-align: middle;
 }
