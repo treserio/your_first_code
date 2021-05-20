@@ -2,11 +2,12 @@
 <html lang="en-US">
   <head>
     <title>
-      Page2
+      tweets!
     </title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="http://54.84.245.156/tweets.html" />    
   </head>
   <body class="works_on_smartphone">
     <header>
@@ -16,8 +17,8 @@
       <div class=hdr>
         <ul>
           <li><a href="index.html"><img class=bannerThumbs src="https://www.rawshorts.com/freeicons/wp-content/uploads/2017/01/blue_repicthousebase_1484336386-1.png"></a></li>
-          <li><a href="page2.html">Second</a></li>
-          <li><a href="page3.html">Third</a></li>
+          <li><a href="games.html"><img class=bannerThumbs src="https://toppng.com/uploads/preview/ame-controller-free-icon-game-controller-art-11563041193yuz2ezlwtn.png" alt="games"></a></li>
+          <li><a href="page3.html"><img class=bannerThumbs src="https://static.thenounproject.com/png/1973938-200.png"></a></li>
           <li><a href="tweets.html"><img class=bannerThumbs src="https://logonoid.com/images/thumbs/twitter-logo.png"></a></li>
         </ul>
       </div>
@@ -42,7 +43,27 @@
           <iframe width="560" height="315" src="https://www.youtube.com/embed/_Yhyp-_hX2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </article>
-      <aside>placeholder to add comment thread later.</aside>
+      <aside>
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            
+            var disqus_config = function () {
+            this.page.url = "http://54.84.245.156/tweets.html";  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = 3336669990003696930; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://treserio.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </aside>
     </main>
     <footer>Made by Frank "Tres" Serio for <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.</footer>
   </body>

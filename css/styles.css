@@ -69,3 +69,11 @@ aside {
         float: none;
     }
 }
+img {
+	max-width: 100%;
+}
+img.small {
+	width: 100px;
+    float: left;
+    padding-right: 10px;
+}
