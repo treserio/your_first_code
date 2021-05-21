@@ -75,6 +75,11 @@ aside {
 img {
 	max-width: 100%;
 }
+img.smallR {
+	width: 100px;
+    float: right;
+    margin-right: 10px;
+}
 img.small {
 	width: 100px;
     float: left;
