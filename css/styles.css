@@ -68,6 +68,9 @@ aside {
     header .right {
         float: none;
     }
+    .banner {
+        height: 100%;
+    }
 }
 img {
 	max-width: 100%;
