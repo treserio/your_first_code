@@ -93,12 +93,35 @@ img.small {
 }
 .gameBox {
     width: 150px;
-    max-width: 100%;
     height: 180px;
     background: black;
 }
 .gameCover {
     vertical-align: middle;
+}
+.tttHdr {
+    text-align: center;
+}
+.toolTipTxt {
+    visibility: hidden;
+    text-align: center;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    float: right;
+}
+.tttTbl {
+    float: right;
+    border-style: solid;
+    border-color: rgb(230,230,230);
+    margin-left: 10px;
+}
+.tttBox {
+    border: solid;
+    border-width: thin;
+    border-color: rgb(230,230,230);
+    text-align: center;
+    width: 33%;
 }
 /* Positioning and margins 
 @media (min-width: 1100px) {
